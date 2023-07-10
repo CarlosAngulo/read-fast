@@ -1,0 +1,42 @@
+.container {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #ffeeda;
+}
+
+.text-container {
+    text-align: center;
+    font-size: 4em;
+    flex-basis: 100%;
+}
+
+.controls {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2em;
+    background-color: white;
+    &-speed {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 12px 0;
+    }
+    .material-symbols-outlined {
+        font-size: 1.4em;
+        cursor: pointer;
+        &:hover {
+            color: #888;
+        }
+    }
+}
